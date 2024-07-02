@@ -1,0 +1,469 @@
+
+@font-face {
+    font-family:"Futurak";
+    src: url(fonts/futurak.ttf);
+}
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    background-color: black;
+    padding: 10px 100px;
+}
+.logo>img{
+    width: 150px;
+}
+.menu>li{
+    display: inline-block;
+    color: white;
+    margin-right: 20px
+    /* padding: 20px; */
+}
+.logo,.right-side{
+    display: inline-block;
+}
+.logo{
+    width: 30%;
+   
+    vertical-align: middle;
+}
+.right-side{
+    width: 55%;
+  
+    text-align: right;
+    vertical-align: baseline;
+
+}
+.btn>button{
+    border: none;
+padding: 20px 20px;
+    border-radius: 35px;
+    margin: 5px;
+}
+.btn-one{
+    background-color: transparent;
+    color:white;
+   border: 1px solid white !important;
+  
+}
+.btn-two{
+    background-color: #ed1c24;
+    color: white;
+    border:1px solid #ed1c24 !important;
+}
+.menu{
+    display: inline-block;
+}
+.btn{
+    display: inline-block;
+}
+.btn-two>i{
+    background-color: white;
+    color: #ed1c24;
+    padding: 8px;
+    margin-left: 2px;
+    border-radius: 100%;
+}
+.btn-two{
+    padding: 15px 10px !important;
+}
+.slide{
+    width: 100%;
+    height: 500px;
+}
+.slide > img{
+    width: 100%;
+    height: 100%;
+}
+.intro{
+    width:100%;
+    height: 400px;
+    background-color: black;
+    text-align: center;
+     padding: 10px 10px;
+    margin: 0;
+}
+.intro > h2{
+    color: white;
+    margin: 0;
+    font-size: 40px;
+}
+.intro > p{
+    color: #ffffffb3;
+    margin: 5px;
+}
+span.logo-font{
+    font-family:Futurak ;
+letter-spacing: 5px;
+line-height: 62px;
+}
+.cards{
+    display: inline-block;
+}
+.card-btn > button{
+    border: none;
+    margin: 15px;
+padding: 15px;
+width: 150px;
+height: 50px;
+border:1px solid rgba(255, 255, 255, 0.3);
+border-radius: 50px;
+background-color: transparent;
+color: white;
+}
+.card-one{
+    background-color: white;
+    width:250px;
+    height:130px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.card-one > img{
+    width:200px;
+    padding:15px
+}
+.card-two{
+    background-color: white;
+    width:250px;
+    height:130px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.card-two > img{
+    width:200px;
+    padding:15px;
+   margin-top: 7px;
+}
+.card-three{
+    background-color: white;
+    width:250px;
+    height:130px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.card-three > img{
+    width:200px;
+    padding:15px;
+    margin-top: 7px;
+}
+
+.card-container{
+   margin: 34px;
+}
+
+.franchises {
+    width: 100%;
+    height: 1300px;
+    background-color:#111111;
+     margin-left: -10px;   
+}
+.locations{
+    width:100% ;
+
+    margin-top: 10px;
+    height: 600px;
+    padding-top: 35px;
+    
+}
+html{
+    width: 100%;
+    padding: 0 ;
+}
+.logo-font{
+    font-family: Futurak;
+    letter-spacing: 5px;
+    line-height: 0px;
+}
+
+    
+.locations > h2{
+    color: white;
+    font-size: 40px;
+}
+.locations > p {
+    color: #ffffffb3;
+ margin-top: -19px;
+}
+.franchise > small{
+    color: red;
+    letter-spacing: 7px;
+   
+}
+.franchise > h2{
+    color: white;
+    margin: 0;
+    
+}
+.franchise > p{
+    color: white;
+
+}
+.franchise > h2 > span{
+    letter-spacing: 5px;
+}
+.franchise > button {
+    border: none;
+    margin: 15px;
+padding: 15px;
+width: 150px;
+height: 50px;
+border:1px solid rgba(255, 255, 255, 0.3);
+border-radius: 50px;
+background-color: transparent;
+color: white;
+}
+.franchise > button > i {
+    background-color: white;
+    color: #ed1c24;
+    padding: 8px;
+    margin-left: 2px;
+    border-radius: 100%;
+}
+.franchise , .img {
+    display: inline-block;
+}
+.franchise{
+    margin-right: 50px;
+    text-align: left;
+    /* margin-top: 0;
+ margin-bottom: -10px; */
+}
+.img{
+ margin-right: 500px;
+   margin-top: 10px;
+   width: 80px;
+   height: 80px;
+   padding:50px;
+}
+
+.two{
+ margin-right: 342px;
+}
+.img-two{
+    display: inline-block;
+    padding-right: 38px;
+}
+.second-franchise-express{
+    background-color: black;
+    height: 1610px;
+    width: 100%;
+    margin-top: -20px;
+    margin-left:-10px;
+
+}
+.second{
+    padding-top: 70px;
+}
+.second > h2{
+    color: white;
+  font-size: 40px;
+   margin-top: 20px;
+ line-height: 8px;
+ letter-spacing: 7px;
+}
+.new-card-box > img{
+width: 300px;
+}
+.new-card-box > small{
+    color: #ed1c24;
+    letter-spacing: 5px;
+}
+.new-card-box > h3 {
+    color: white;
+   margin: -9px;
+}
+.new-card-box > p {
+    color: #ffffffb3;
+}
+.new-card-box > button {
+    border: none;
+    margin: 15px;
+padding: 15px;
+width: 150px;
+height: 50px;
+border:1px solid rgba(255, 255, 255, 0.3);
+border-radius: 50px;
+background-color: transparent;
+color: white;
+}
+.new-card-box > button > i {
+    background-color: white;
+    color: #ed1c24;
+    padding: 8px;
+    margin-left: 2px;
+    border-radius: 100%;
+    transform: rotate(-37deg);
+}
+.new-card-box {
+    display: inline-block;
+    margin: 10px;
+}
+.village-franchise{
+    background-color: #111111;
+    height: 718px;
+    margin-top: -20px;
+    margin-left: -10px;
+}
+.intro-two {
+    padding-top: 40px;
+}
+.village-second-section  {
+    margin-top: 60px;
+}
+.intro-two > h2 {
+color: white;
+font-size: 40px;
+ margin-top: 20px;
+line-height: 8px;
+letter-spacing: 7px;
+}
+
+.village-second-section > img {
+    display: inline-block;
+    width: 784px;
+    margin-left: -240px;
+
+}
+.village-second-section > .third {
+    display: inline-block;
+ margin-top: -10px !important;
+
+}
+.second-express{
+    background-color: black;
+    height: 1370px;
+    margin-left: -10px;
+}
+.express-card{
+    background-color: white;
+    width: 330px;
+    height: 230px;
+    border-radius: 5px;
+}
+.express-card > img {
+    width:50px;
+    height:50px;
+    margin: 15px;
+}
+.express-card > h4{
+    margin: 10px;
+    padding: 0;
+    font-size: 22px;
+}
+.express-card > span{
+    font-weight: bolder;
+}
+.express-card > p{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+.express-card > small {
+    color: #ed1c24;
+    letter-spacing: 6px;
+    margin: 10px;
+  font-size: 10px;
+  
+}
+.express-card{
+    display: inline-block;
+    margin: 10px;
+}
+.social > h3 {
+    color: white;
+      margin-top: 40px;  
+    font-size: 30px;
+}
+.instafeed > img{
+width: 280px;
+display: inline-block;
+height: 280px;
+margin: 5px;
+}
+.footer-section{
+    background-color: #111111;
+    height: 410px;
+    margin-left: -10px;
+}
+.details {
+    display: inline-block;
+}
+.details-one > img {
+    width: 150px;
+   padding-right: 175px;
+}
+.details-one > p {
+    color: #ffffffb3;
+    display: inline-block;
+    text-align: left;
+}
+
+.details-one {
+    display: inline-block;
+}
+.details-two{
+    display: inline-block;
+    color: #ffffffb3;
+ padding-top: 0;
+}
+.details-two > h3{
+    color: white;
+    
+}
+.details-three > h3{
+    color: white;
+}
+.details-three {
+    display: inline-block;
+    color: #ffffffb3;  
+    padding: 10px;
+ }
+.details-four{
+    display: inline-block;  
+    margin: 10px;
+}
+.details-four > h3{
+    color: white;
+    padding: 15px;
+}
+
+.details-four > a{
+    display: inline-block;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 8px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #ED1C24;
+    color: #fff;
+    border-radius: 50px;
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+}
+.details-four > a  > i{
+    margin-top: 10px;
+} 
+.details{
+    margin-top: 50px;
+}
+ul > li {
+    list-style: none;
+    line-height: 45px;
+    font-weight: 400px;
+    letter-spacing: 0.03rem;
+    font-size: 15px;
+}
+.details-four > img {
+    padding: 10px;
+}
+.terms{
+    padding-right: 107px;
+}

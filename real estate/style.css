@@ -1,0 +1,342 @@
+  nav {
+      border-radius: 25px;
+      margin: 10px;
+  }
+
+  .main {
+      display: flex;
+      justify-content: space-between;
+  }
+  .list{
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .nav-items {
+      justify-content: center;
+      align-items: center;
+      margin-left: 20px;
+      justify-items: center;
+  }
+
+  ul>li {
+      margin-left: 10px;
+  }
+
+  .search>i {
+      margin-top: 12px;
+      margin-right: 10px;
+      font-size: 15px;
+  }
+  .nav-item > i :hover{
+cursor: pointer;
+  }
+
+  .btn-contact {
+      border-radius: 20px !important;
+      color: black !important;
+      border: 2px solid rgb(121, 118, 118) !important;
+      background-color: white !important;
+
+  }
+
+  .nav-form {
+      margin-left: 60px;
+      display: flex;
+      justify-items: end;
+      justify-content: flex-end;
+  }
+
+  form>h6 {
+      margin: 10px 19px;
+  }
+
+  .manage {
+      display: flex;
+      height: 570px;
+      background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+      margin: 20px 0px;
+      border-radius: 20px;
+      flex-direction: row;
+
+  }
+.welcome{
+margin: 40px 15px;
+}
+.welcome > p{
+    color: #000000;
+}
+.welcome > h1{
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.info{
+    position: relative;
+    
+}
+.info > input{
+    position: absolute;
+height: 45px;
+width: 200px;
+border-radius: 25px;
+border: 2px solid transparent;
+padding: 10px;
+}
+.info > button{
+    position: absolute;
+height: 45px;
+width: 140px;
+right: 73px;
+background-color: #000000;
+color: white;
+border-radius: 25px;
+border: 2px solid transparent;
+}
+.main-img > img{
+   width: 700px;
+position: absolute;
+
+}
+.steps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+ .steps > p{
+   margin-top: 30px;
+   padding-top: 30px;
+   margin-bottom: 0px;
+}
+.steps > h1{
+    font-weight: 500;
+    /* font-size: 40px; */
+    line-height: 40px;
+}
+.three-steps{
+    display: flex;
+   margin: 20px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.step{
+    margin-top: 20px;
+}
+.step > img{
+    width: 50px;
+}
+.best-projects{
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.best-projects > p {
+    margin-bottom: 0px;
+   margin-left: 15px;
+}
+.best-projects > h1{
+    margin-left: 15px;
+}
+.best-projects > h1 > span > img{
+    margin-left: 600px;
+}
+.three-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.project{
+    width: 400px;
+    border: 1px solid #BEBEBE;
+    margin-left: 20px;
+    justify-items: center;
+ border-radius: 10px;
+}
+.project > p{
+    padding: 10px;
+}
+.project > h4{
+    padding: 10px;
+}
+.star{
+    padding: 10px;
+}
+.project-img{
+ width: 350px;
+ height: 210px;
+ background: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7) 9.86%, rgba(255, 255, 255, 0) 52.13%, rgba(251, 217, 185, 0.7) 97.99%);
+border-radius: 10px;
+}
+.global{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 40px;
+}
+.global > h1{
+    font-weight: 800px;
+    font-size: 50px;
+    align-items: center;
+    line-height: 60px;
+}
+.real-estate{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.booking{
+    margin: 35px 0px;
+}
+.book{
+    background-color: #000000;
+    color: white;
+    width: 130px;
+    height: 40px;
+border-radius: 55px;
+margin-right: 10px;
+}
+.read{
+    background-color: white;
+    color: #000000;
+    border: 1px solid rgb(223, 218, 218) ;
+    width: 130px;
+    height: 40px;
+border-radius: 55px;
+}
+
+.count{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+margin-right: 0px;
+
+}
+.customers > h3{
+   font-weight: 600;
+  font-size: 60px;
+}
+.offices > h3{
+    font-weight: 600;
+   font-size: 60px;
+ }
+ .students > h3{
+    font-weight: 600;
+   font-size: 55px;
+ }
+ .realestate-img{
+    margin-left: 60px;
+ }
+ .realestate-img > img{
+    height: 400px;
+    width: 400px;
+ }
+ .newsletter{
+    display: flex;
+    height: auto;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    margin: 20px 0px;
+    border-radius: 20px;
+    flex-direction: row;
+ }
+
+ .subscribe{
+    font-size: 30px !important;
+    font-weight: 200 !important;
+ }
+ .info-two{
+position: relative;
+ }
+.info-two > input{
+    position: absolute;
+height: 45px;
+width: 380px;
+border-radius: 25px;
+border: 2px solid transparent;
+padding: 10px;
+}
+  
+.info-two > button{
+    position: absolute;
+height: 45px;
+width: 140px;
+right: 195px;
+background-color: #000000;
+color: white;
+border-radius: 25px;
+border: 2px solid transparent;
+}
+.main-img-two > img{
+    width: 410px;
+    height: 420px;
+}
+
+
+
+@media only screen and (max-width:600px){
+.manage{
+    display: flex;
+    flex-direction: column;
+  height: 740px;
+}
+.main-img > img{
+    width: 405px;
+   left: 0px;
+}
+.steps > h1{
+    font-size: 26px;
+}
+.three-steps{
+    display: flex;
+   flex-direction: column;
+}
+.best-projects > h1 > span > img{
+   
+    display: none;
+}
+.three-projects{
+    flex-direction: column;
+    justify-content: center;
+}
+.project{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.project-img{
+    width: 100%;
+}
+.global{
+   margin-left: 0px;
+    font-size: 30px;
+}
+.real-estate{
+    flex-direction: column;
+}
+.realestate-img > img{
+    margin-left: -39px !important;
+    justify-content: center;
+    width: 380px;
+}
+.newsletter{
+    flex-direction: column;
+}
+ .info-two > input{
+        position: absolute;
+    height: 45px;
+    width: 200px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+.info-two > button{
+    position: absolute;
+height: 45px;
+width: 140px;
+right: 73px;
+background-color: #000000;
+color: white;
+border-radius: 25px;
+border: 2px solid transparent;
+}
+}
